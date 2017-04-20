@@ -82,7 +82,7 @@ Collect and share results for **correlation filter trackers**.
 [[github1](https://github.com/masa-nudt/KCFDP)]
 [[github2](https://github.com/masa-nudt/KCFDPT)]
 
-## Multi kernel & feature & template
+## Multi kernel & feature & template & task
 
 * **MKCF:** Ming Tang, Jiayi Feng.
 "Multi-kernel Correlation Filter for Visual Tracking." ICCV (2015).
@@ -100,9 +100,14 @@ Collect and share results for **correlation filter trackers**.
 [[project](https://sites.google.com/site/jwchoivision/home/sct)]
 
 * **MvCFT** Xin Li, Qiao Liu, Zhenyu He, Hongpeng Wang, Chunkai Zhang, Wen-Sheng Chen.
-"A Multi-view Model for Visual Tracking via Correlation Filters." KNOSYS (2016)
+"A Multi-view Model for Visual Tracking via Correlation Filters." KNOSYS (2016).
 [[paper](http://hezhenyu.cn/UpLoadFiles/Papers/a%20multi-view%20model%20for%20visual%20tracking%20via%20correlation%20filters.pdf)]
 [[code](http://hezhenyu.cn/UpLoadFiles/Codes/MCVFT_relased.rar)]
+
+* **MCPF** Tianzhu Zhang, Changsheng Xu, Ming-Hsuan Yang.
+"Multi-task Correlation Particle Filter for Robust Visual Tracking." CVPR (2016).
+[[paper](http://nlpr-web.ia.ac.cn/mmc/homepage/tzzhang/Project_Tianzhu/zhang_mcpf/1758-new.pdf)]
+[[code](http://nlpr-web.ia.ac.cn/mmc/homepage/tzzhang/Project_Tianzhu/zhang_mcpf/Source_Code/Source_Code.zip)]
 
 ## Part-based
 
@@ -131,6 +136,10 @@ Collect and share results for **correlation filter trackers**.
 * **StructCF:** Si Liu, Tianzhu Zhang, Changsheng Xu, Xiaochun Cao.
 "Structural Correlation Filter for Robust Visual Tracking." CVPR (2016).
 [[paper](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Liu_Structural_Correlation_Filter_CVPR_2016_paper.pdf)]
+
+* Rui Yao, Shixiong Xia, Zhen Zhang, Yanning Zhang.
+"Real-time Correlation Filter Tracking by Efficient Dense Belief Propagation with Structure Preserving." TMM (2016).
+[[paper](http://ieeexplore.ieee.org/document/7752963/)]
 
 * **LGCF** Heng Fan, Jinhai Xiang.
 "Robust Visual Tracking via Local-Global Correlation Filter." AAAI (2017).
@@ -166,10 +175,19 @@ Collect and share results for **correlation filter trackers**.
 [[paper](http://www.adelbibi.com/papers/ECCV2016/Target_Adap.pdf)]
 [[github](https://github.com/adelbibi/Target-Response-Adaptation-for-Correlation-Filter-Tracking)]
 
+* **RCF** Yao Sui, Ziming Zhang,  Guanghui Wang, Yafei Tang, Li Zhang.
+"Real-Time Visual Tracking: Promoting the Robustness of Correlation Filter Learning." ECCV (2016).
+[[paper](http://120.52.73.78/arxiv.org/pdf/1608.08173.pdf)]
+[project()]
+
 * **OCT-KCF** Baochang Zhang, Zhigang Li, Xianbin Cao, Qixiang Ye, Chen Chen, Linlin Shen, Alessandro Perina, Rongrong Ji.
 "Output Constraint Transfer for Kernelized Correlation Filter in Tracking." TSMC (2016).
 [[paper](https://arxiv.org/pdf/1612.05365.pdf)]
 [[github](https://github.com/bczhangbczhang/OCT-KCF)]
+
+* Yao Sui, Guanghui Wang, Li Zhang.
+"Correlation Filter Learning Toward Peak Strength for Visual Tracking." TCYB (2017).
+[[paper](http://ieeexplore.ieee.org/document/7898784/)]
 
 ## Training set adaptation
 
