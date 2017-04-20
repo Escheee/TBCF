@@ -70,13 +70,13 @@ Collect and share results for **correlation filter trackers**.
 [[paper](https://github.com/ihpdep/ihpdep.github.io/raw/master/papers/eccvw14_samf.pdf)]
 [[github](https://github.com/ihpdep/samf)]
 
-* **SKCF** Solis Montero, Andres, Jochen Lang, Robert Laganiere.
+* **SKCF:** Solis Montero, Andres, Jochen Lang, Robert Laganiere.
 "Scalable Kernel Correlation Filter with Sparse Feature Integration." ICCV workshop (2015).
 [[paper](http://www.solism.ca/bib/solisetal2015iccv.pdf)]
 [[project](http://www.solism.ca/projects/tracking.html)]
 [[github](https://github.com/ihpdep/samf)]
 
-* **KCFDP/KCFDPT** Dafei Huang, Lei Luo, Mei Wen, Zhaoyun Chen and Chunyuan Zhang.
+* **KCFDP/KCFDPT:** Dafei Huang, Lei Luo, Mei Wen, Zhaoyun Chen and Chunyuan Zhang.
 "Enable Scale and Aspect Ratio Adaptability in Visual Tracking with Detection Proposals." BMVC (2015).
 [[paper](http://www.bmva.org/bmvc/2015/papers/paper185/paper185.pdf)]
 [[github1](https://github.com/masa-nudt/KCFDP)]
@@ -89,7 +89,7 @@ Collect and share results for **correlation filter trackers**.
 [[paper](http://vision.ia.ac.cn/Faculty/mtang/mkcf.pdf)]
 [[exe](http://vision.ia.ac.cn/Faculty/mtang/MKCF_exe.rar)]
 
-* **CF+MT** Adel Bibi, Bernard Ghanem.
+* **CF+MT:** Adel Bibi, Bernard Ghanem.
 "Multi-Template Scale Adaptive Kernelized Correlation Filters." ICCV workshop (2015).
 [[paper](http://www.adelbibi.com/papers/ICCVW2015/paper.pdf)]
 [[github](https://github.com/adelbibi/Multi-Template-Scale-Adaptive-Kernelized-Correlation-Filters)]
@@ -99,12 +99,12 @@ Collect and share results for **correlation filter trackers**.
 [[paper](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Choi_Visual_Tracking_Using_CVPR_2016_paper.pdf)]
 [[project](https://sites.google.com/site/jwchoivision/home/sct)]
 
-* **MvCFT** Xin Li, Qiao Liu, Zhenyu He, Hongpeng Wang, Chunkai Zhang, Wen-Sheng Chen.
+* **MvCFT:** Xin Li, Qiao Liu, Zhenyu He, Hongpeng Wang, Chunkai Zhang, Wen-Sheng Chen.
 "A Multi-view Model for Visual Tracking via Correlation Filters." KNOSYS (2016).
 [[paper](http://hezhenyu.cn/UpLoadFiles/Papers/a%20multi-view%20model%20for%20visual%20tracking%20via%20correlation%20filters.pdf)]
 [[code](http://hezhenyu.cn/UpLoadFiles/Codes/MCVFT_relased.rar)]
 
-* **MCPF** Tianzhu Zhang, Changsheng Xu, Ming-Hsuan Yang.
+* **MCPF:** Tianzhu Zhang, Changsheng Xu, Ming-Hsuan Yang.
 "Multi-task Correlation Particle Filter for Robust Visual Tracking." CVPR (2016).
 [[paper](http://nlpr-web.ia.ac.cn/mmc/homepage/tzzhang/Project_Tianzhu/zhang_mcpf/1758-new.pdf)]
 [[code](http://nlpr-web.ia.ac.cn/mmc/homepage/tzzhang/Project_Tianzhu/zhang_mcpf/Source_Code/Source_Code.zip)]
@@ -124,7 +124,7 @@ Collect and share results for **correlation filter trackers**.
 [[paper](https://github.com/ihpdep/ihpdep.github.io/raw/master/papers/cvpr15_rpt.pdf)]
 [[github](https://github.com/ihpdep/rpt)]
 
-* **DPCF** Osman Akina, Erkut Erdema, Aykut Erdema, Krystian Mikolajczykb.
+* **DPCF:** Osman Akina, Erkut Erdema, Aykut Erdema, Krystian Mikolajczykb.
 "Deformable Part-based Tracking by Coupled Global and Local Correlation Filters." JVCIR (2016).
 [[paper](http://web.cs.hacettepe.edu.tr/~erkut/publications/DPCF-Tracking.pdf)]
 [[code](http://www.votchallenge.net/vot2016/download/01_DPCF.zip)]
@@ -141,7 +141,7 @@ Collect and share results for **correlation filter trackers**.
 "Real-time Correlation Filter Tracking by Efficient Dense Belief Propagation with Structure Preserving." TMM (2016).
 [[paper](http://ieeexplore.ieee.org/document/7752963/)]
 
-* **LGCF** Heng Fan, Jinhai Xiang.
+* **LGCF:** Heng Fan, Jinhai Xiang.
 "Robust Visual Tracking via Local-Global Correlation Filter." AAAI (2017).
 [[paper](http://hengfan.byethost7.com/publications/AAAI_17.pdf)]
 
@@ -163,7 +163,7 @@ Collect and share results for **correlation filter trackers**.
 [[project](https://sites.google.com/site/zhibinhong4131/Projects/muster)]
 [[code](https://sites.google.com/site/zhibinhong4131/MUSTer_code_v1.1.zip?attredirects=0&d=1)]
 
-* **CCT** Guibo Zhu, Jinqiao Wang, Yi Wu, Hanqing Lu.
+* **CCT:** Guibo Zhu, Jinqiao Wang, Yi Wu, Hanqing Lu.
 "Collobarative Correlation Tracking." BMVC (2015).
 [[paper](http://www.nlpr.ia.ac.cn/iva/homepage/jqwang/paper/BMVC2015.pdf)]
 [[code](http://www.nlpr.ia.ac.cn/iva/homepage/jqwang/paper/CCT.rar)]
@@ -175,12 +175,12 @@ Collect and share results for **correlation filter trackers**.
 [[paper](http://www.adelbibi.com/papers/ECCV2016/Target_Adap.pdf)]
 [[github](https://github.com/adelbibi/Target-Response-Adaptation-for-Correlation-Filter-Tracking)]
 
-* **RCF** Yao Sui, Ziming Zhang,  Guanghui Wang, Yafei Tang, Li Zhang.
+* **RCF:** Yao Sui, Ziming Zhang,  Guanghui Wang, Yafei Tang, Li Zhang.
 "Real-Time Visual Tracking: Promoting the Robustness of Correlation Filter Learning." ECCV (2016).
 [[paper](http://120.52.73.78/arxiv.org/pdf/1608.08173.pdf)]
 [project()]
 
-* **OCT-KCF** Baochang Zhang, Zhigang Li, Xianbin Cao, Qixiang Ye, Chen Chen, Linlin Shen, Alessandro Perina, Rongrong Ji.
+* **OCT-KCF:** Baochang Zhang, Zhigang Li, Xianbin Cao, Qixiang Ye, Chen Chen, Linlin Shen, Alessandro Perina, Rongrong Ji.
 "Output Constraint Transfer for Kernelized Correlation Filter in Tracking." TSMC (2016).
 [[paper](https://arxiv.org/pdf/1612.05365.pdf)]
 [[github](https://github.com/bczhangbczhang/OCT-KCF)]
@@ -213,12 +213,12 @@ Collect and share results for **correlation filter trackers**.
 [[project](http://www.hamedkiani.com/cfwlb.html)]
 [[code](http://www.hamedkiani.com/uploads/5/1/8/8/51882963/cfwlb_tracker_matlab.rar)]
 
-* **SWCF** Erhan Gundogdu, A. Aydın Alatan.
+* **SWCF:** Erhan Gundogdu, A. Aydın Alatan.
 "Spatial Windowing for Correlation Filter based Visual Tracking." ICIP (2016).
 [[paper](http://ieeexplore.ieee.org/abstract/document/7532645/)]
 [[code](http://www.votchallenge.net/vot2016/download/03_SWCF.zip)]
 
-* **CF+CA** Matthias Mueller, Neil Smith, Bernard Ghanem.
+* **CF+CA:** Matthias Mueller, Neil Smith, Bernard Ghanem.
 "Context-Aware Correlation Filter Tracking." CVPR (2017).
 [[paper](https://ivul.kaust.edu.sa/Documents/Publications/2017/Context-Aware%20Correlation%20Filter%20Tracking.pdf)]
 [[project](https://ivul.kaust.edu.sa/Pages/pub-ca-cf-tracking.aspx)]
@@ -233,7 +233,7 @@ Collect and share results for **correlation filter trackers**.
 [[paper](http://ieeexplore.ieee.org/document/7896655/)]
 [[github](http://github.com/shenjianbing/mrctrack)]
 
-* **BACF** Hamed Kiani Galoogahi, Ashton Fagg, Simon Lucey.
+* **BACF:** Hamed Kiani Galoogahi, Ashton Fagg, Simon Lucey.
 "Learning Background-Aware Correlation Filters for Visual Tracking." arXiv (2017).
 [[paper](https://arxiv.org/pdf/1703.04590.pdf)]
 
@@ -265,7 +265,7 @@ Collect and share results for **correlation filter trackers**.
 [[project](https://sites.google.com/site/jbhuang0604/publications/cf2)]
 [[github](https://github.com/jbhuang0604/CF2)]
 
-* **CF2+** Chao Ma, Yi Xu, Bingbing Ni, Xiaokang Yang.
+* **CF2+:** Chao Ma, Yi Xu, Bingbing Ni, Xiaokang Yang.
 "When Correlation Filters Meet Convolutional Neural Networks for Visual Tracking." SPL (2016).
 [[paper](https://drive.google.com/file/d/0B8-i_hZvGyZNclNFSWlESzUwZ0E/view?usp=sharing)]
 
@@ -279,12 +279,12 @@ Collect and share results for **correlation filter trackers**.
 [[paper](http://faculty.ucmerced.edu/mhyang/papers/cvpr16_hedge_tracking.pdf)]
 [[project](https://sites.google.com/site/yuankiqi/hdt/)]
 
-* **ACFN** Jongwon Choi, Hyung Jin Chang, Sangdoo Yun, Tobias Fischer, Yiannis Demiris.
+* **ACFN:** Jongwon Choi, Hyung Jin Chang, Sangdoo Yun, Tobias Fischer, Yiannis Demiris.
 "Attentional Correlation Filter Network for Adaptive Visual Tracking." CVPR (2016).
 [[paper](https://drive.google.com/open?id=0B0ZkG8zaRQoLUHdlTGNtUWFjd1E)]
 [[project](https://sites.google.com/site/jwchoivision/home/acfn-1)]
 
-* **CFNet** Jack Valmadre, Luca Bertinetto, João Henriques, Andrea Vedaldi, Philip Torr.
+* **CFNet:** Jack Valmadre, Luca Bertinetto, João Henriques, Andrea Vedaldi, Philip Torr.
 "End-to-end Representation Learning for Correlation Filter based Tracking." CVPR (2017).
 [[paper]()]
 [[project](http://www.robots.ox.ac.uk/~luca/cfnet.html)]
