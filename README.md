@@ -8,6 +8,10 @@ Collect and share results for **correlation filter trackers**.
 
 ![plots-OTB100](plots/OTB100.png)
 
+* All results run on a 3.5GHz Intel Core i7 CPU with 32 GB memory.
+* We use the first frame's ground truth instead of the second frame's in the code of **HDT**. So there may be a gap between the result above and the paper.
+* You can find more plots in the [OTB code folder](code/OTB) of the repository.
+
 <!-- ## Results on UAV123
 
 - coming... -->

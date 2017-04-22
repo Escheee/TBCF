@@ -1,4 +1,4 @@
-function plotDrawSave(numTrk,plotDrawStyle,aveSuccessRatePlot,idxSeqSet,rankNum,rankingType,rankIdx,nameTrkAll,thresholdSet,titleName,xLabelName,yLabelName,figName,metricType)
+function plotDrawSave(numTrk,plotDrawStyle,aveSuccessRatePlot,fpsTrkAll,idxSeqSet,rankNum,rankingType,rankIdx,nameTrkAll,thresholdSet,titleName,xLabelName,yLabelName,figName,metricType)
 
 aveSuccessRate11=[];
 
@@ -17,14 +17,14 @@ for idxTrk=1:numTrk
             perf(idxTrk) = bb(rankIdx);
     end
 end
-disp(perf);
+% disp(perf);
 [tmp,indexSort]=sort(perf,'descend');
 
 i=1;
 AUC=[];
 
 fontSize = 16;
-fontSizeLegend = 5;
+fontSizeLegend = 6;
 
 figure1 = figure;
 % set(gcf,'Position',[100,100,500,500], 'color','w');
@@ -44,9 +44,10 @@ for idxTrk=indexSort(1:rankNum)%1:rankNum%
         case 'threshold'
             score = bb(rankIdx);
             tmp=sprintf('%.3f', score);
-    end    
+    end
+    fps=sprintf('%.1f', fpsTrkAll(idxTrk));
 %     tmpName{i} = [nameTrkAll{idxTrk}];
-    tmpName{i} = [nameTrkAll{idxTrk} ' [' tmp ']'];
+    tmpName{i} = ['[' tmp ']\textbf{' nameTrkAll{idxTrk} '} [' fps 'fps]'];
     h(i) = plot(thresholdSet,bb,'color',plotDrawStyle{i}.color, 'lineStyle', plotDrawStyle{i}.lineStyle,'lineWidth', 4,'Parent',axes1);
     hold on
     i=i+1;
@@ -62,7 +63,7 @@ switch metricType
         location = 'southwest';
 end
 
-legend1=legend(tmpName,'Interpreter', 'none','fontsize',fontSizeLegend,'Location',location);
+legend1=legend(tmpName,'Interpreter', 'none','fontsize',fontSizeLegend,'Location',location,'Interpreter','latex');
 title(titleName,'fontsize',fontSize);
 xlabel(xLabelName,'fontsize',fontSize);
 ylabel(yLabelName,'fontsize',fontSize);

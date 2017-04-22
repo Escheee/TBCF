@@ -28,6 +28,9 @@ for idxSeq=1:length(seqs)
     end
     
     rect_anno = dlmread([pathAnno s.name '.txt']);
+%     if ~isequal(s.name, 'david')
+%         rect_anno = rect_anno(s.startFrame:s.endFrame,:);
+%     end
     numSeg = 20;
     [subSeqs, subAnno]=splitSeqTRE(s,numSeg,rect_anno);
     
@@ -47,6 +50,7 @@ for idxSeq=1:length(seqs)
         errCenterAll = 0;
         
         lenALL = 0;
+        fps = 0;
         
         switch evalType
             case 'SRE'
@@ -93,9 +97,13 @@ for idxSeq=1:length(seqs)
             end
             
             lenALL = lenALL + len;
-            
+                    
+            if isfield(res,'fps')
+                fps = res.fps;
+            end
         end
         
+        fpsTrkAll(idxTrk, idxSeq) = fps;
         
         if strcmp(evalType, 'OPE')
             aveSuccessRatePlot(idxTrk, idxSeq,:) = successNumOverlap/(lenALL+eps);
@@ -108,9 +116,10 @@ for idxSeq=1:length(seqs)
     end
 end
 %
+fpsTrkAll = sum(fpsTrkAll,2)./sum((fpsTrkAll > 0),2);
 dataName1=[perfMatPath 'aveSuccessRatePlot_' num2str(numTrk) 'alg_overlap_' evalType '_' benchmark '.mat'];
-save(dataName1,'aveSuccessRatePlot','nameTrkAll');
+save(dataName1,'aveSuccessRatePlot','nameTrkAll','fpsTrkAll');
 
 dataName2=[perfMatPath 'aveSuccessRatePlot_' num2str(numTrk) 'alg_error_' evalType '_' benchmark '.mat'];
 aveSuccessRatePlot = aveSuccessRatePlotErr;
-save(dataName2,'aveSuccessRatePlot','nameTrkAll');
+save(dataName2,'aveSuccessRatePlot','nameTrkAll','fpsTrkAll');

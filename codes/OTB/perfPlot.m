@@ -176,7 +176,7 @@ for i=1:length(metricTypeSet)
         idxSeqSet = 1:length(seqs);
         
         % draw and save the overall performance plot
-        plotDrawSave(numTrk,plotDrawStyle,aveSuccessRatePlot,idxSeqSet,rankNum,rankingType,rankIdx,nameTrkAll,thresholdSet,titleName, xLabelName,yLabelName,figName,metricType);
+        plotDrawSave(numTrk,plotDrawStyle,aveSuccessRatePlot,fpsTrkAll,idxSeqSet,rankNum,rankingType,rankIdx,nameTrkAll,thresholdSet,titleName, xLabelName,yLabelName,figName,metricType);
         
         % draw and save the performance plot for each attribute
         attTrld = 0;
@@ -199,7 +199,7 @@ for i=1:length(metricTypeSet)
                     titleName = ['Precision plots of ' evalType ' - ' attName{attIdx} ' (' num2str(length(idxSeqSet)) ')'];
             end
             
-            plotDrawSave(numTrk,plotDrawStyle,aveSuccessRatePlot,idxSeqSet,rankNum,rankingType,rankIdx,nameTrkAll,thresholdSet,titleName, xLabelName,yLabelName,figName,metricType);
+            plotDrawSave(numTrk,plotDrawStyle,aveSuccessRatePlot,fpsTrkAll,idxSeqSet,rankNum,rankingType,rankIdx,nameTrkAll,thresholdSet,titleName, xLabelName,yLabelName,figName,metricType);
         end        
     end
 end
