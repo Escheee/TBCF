@@ -109,7 +109,7 @@ Collect and share results for **correlation filter trackers**.
 [[code](http://hezhenyu.cn/UpLoadFiles/Codes/MCVFT_relased.rar)]
 
 * **MCPF:** Tianzhu Zhang, Changsheng Xu, Ming-Hsuan Yang.
-"Multi-task Correlation Particle Filter for Robust Visual Tracking." CVPR (2016).
+"Multi-task Correlation Particle Filter for Robust Visual Tracking." CVPR (2017).
 [[paper](http://nlpr-web.ia.ac.cn/mmc/homepage/tzzhang/Project_Tianzhu/zhang_mcpf/1758-new.pdf)]
 [[code](http://nlpr-web.ia.ac.cn/mmc/homepage/tzzhang/Project_Tianzhu/zhang_mcpf/Source_Code/Source_Code.zip)]
 
@@ -284,7 +284,7 @@ Collect and share results for **correlation filter trackers**.
 [[project](https://sites.google.com/site/yuankiqi/hdt/)]
 
 * **ACFN:** Jongwon Choi, Hyung Jin Chang, Sangdoo Yun, Tobias Fischer, Yiannis Demiris.
-"Attentional Correlation Filter Network for Adaptive Visual Tracking." CVPR (2016).
+"Attentional Correlation Filter Network for Adaptive Visual Tracking." CVPR (2017).
 [[paper](https://drive.google.com/open?id=0B0ZkG8zaRQoLUHdlTGNtUWFjd1E)]
 [[project](https://sites.google.com/site/jwchoivision/home/acfn-1)]
 
