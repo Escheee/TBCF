@@ -10,7 +10,7 @@ Collect and share results for **correlation filter trackers**.
 
 * All results run on a 3.5GHz Intel Core i7 CPU with 32 GB memory.
 * We use the first frame's ground truth instead of the second frame's in the code of **HDT**. So there may be a gap between the result above and the paper.
-* You can find more plots in the [OTB code folder](code/OTB) of the repository.
+* You can find more plots in the [OTB code folder](https://github.com/HakaseH/CF_benchmark_results/tree/master/codes/OTB) of the repository.
 
 <!-- ## Results on UAV123
 
@@ -106,12 +106,12 @@ Collect and share results for **correlation filter trackers**.
 * **MvCFT:** Xin Li, Qiao Liu, Zhenyu He, Hongpeng Wang, Chunkai Zhang, Wen-Sheng Chen.
 "A Multi-view Model for Visual Tracking via Correlation Filters." KNOSYS (2016).
 [[paper](http://hezhenyu.cn/UpLoadFiles/Papers/a%20multi-view%20model%20for%20visual%20tracking%20via%20correlation%20filters.pdf)]
-[[code](http://hezhenyu.cn/UpLoadFiles/Codes/MCVFT_relased.rar)]
+[[exe](http://hezhenyu.cn/UpLoadFiles/Codes/MCVFT_relased.rar)]
 
 * **MCPF:** Tianzhu Zhang, Changsheng Xu, Ming-Hsuan Yang.
 "Multi-task Correlation Particle Filter for Robust Visual Tracking." CVPR (2017).
 [[paper](http://nlpr-web.ia.ac.cn/mmc/homepage/tzzhang/Project_Tianzhu/zhang_mcpf/1758-new.pdf)]
-[[code](http://nlpr-web.ia.ac.cn/mmc/homepage/tzzhang/Project_Tianzhu/zhang_mcpf/Source_Code/Source_Code.zip)]
+[[exe](http://nlpr-web.ia.ac.cn/mmc/homepage/tzzhang/Project_Tianzhu/zhang_mcpf/Source_Code/Source_Code.zip)]
 
 ## Part-based
 
@@ -182,7 +182,6 @@ Collect and share results for **correlation filter trackers**.
 * **RCF:** Yao Sui, Ziming Zhang,  Guanghui Wang, Yafei Tang, Li Zhang.
 "Real-Time Visual Tracking: Promoting the Robustness of Correlation Filter Learning." ECCV (2016).
 [[paper](http://120.52.73.78/arxiv.org/pdf/1608.08173.pdf)]
-[project()]
 
 * **OCT-KCF:** Baochang Zhang, Zhigang Li, Xianbin Cao, Qixiang Ye, Chen Chen, Linlin Shen, Alessandro Perina, Rongrong Ji.
 "Output Constraint Transfer for Kernelized Correlation Filter in Tracking." TSMC (2016).
@@ -203,6 +202,7 @@ Collect and share results for **correlation filter trackers**.
 * **ECO:** Martin Danelljan, Goutam Bhat, Fahad Shahbaz Khan, Michael Felsberg.
 "ECO: Efficient Convolution Operators for Tracking." CVPR (2017).
 [[paper](https://arxiv.org/pdf/1611.09224v1.pdf)]
+[[project](https://www.cvl.isy.liu.se/research/objrec/visualtracking/ecotrack/index.html)]
 
 ## Bound effect
 
@@ -290,7 +290,7 @@ Collect and share results for **correlation filter trackers**.
 
 * **CFNet:** Jack Valmadre, Luca Bertinetto, João Henriques, Andrea Vedaldi, Philip Torr.
 "End-to-end Representation Learning for Correlation Filter based Tracking." CVPR (2017).
-[[paper]()]
+[[paper](https://arxiv.org/pdf/1704.06036)]
 [[project](http://www.robots.ox.ac.uk/~luca/cfnet.html)]
 [[github](https://github.com/bertinetto/cfnet)]
 
@@ -298,3 +298,7 @@ Collect and share results for **correlation filter trackers**.
 "DCFNet: Discriminant Correlation Filters Network for Visual Tracking." arXiv (2017).
 [[paper](https://arxiv.org/pdf/1704.04057v1.pdf)]
 [[github](https://github.com/foolwood/DCFNet)]
+
+* **CFCF** Erhan Gundogdu, A. Aydin Alatan.
+"Good Features to Correlate for Visual Tracking." arXiv (2017).
+[[paper](https://arxiv.org/pdf/1704.06326)]
