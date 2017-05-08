@@ -203,7 +203,6 @@ Collect and share results for **correlation filter trackers**.
 "ECO: Efficient Convolution Operators for Tracking." CVPR (2017).
 [[paper](https://arxiv.org/pdf/1611.09224v1.pdf)]
 [[project](https://www.cvl.isy.liu.se/research/objrec/visualtracking/ecotrack/index.html)]
-[[github](https://github.com/martin-danelljan/ECO)]
 
 ## Bound effect
 
