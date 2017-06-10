@@ -231,6 +231,7 @@ Collect and share results for **correlation filter trackers**.
 * **CSR-DCF:** Alan Lukežič, Tomáš Vojíř, Luka Čehovin, Jiří Matas, Matej Kristan.
 "Discriminative Correlation Filter with Channel and Spatial Reliability." CVPR (2017).
 [[paper](https://arxiv.org/pdf/1611.08461v1.pdf)]
+[[github](https://github.com/alanlukezic/csr-dcf)]
 
 * **MRCT:** Hongwei Hu, Bo Ma, Jianbing Shen, Ling Shao.
 "Manifold Regularized Correlation Object Tracking." TNNLS (2017).
