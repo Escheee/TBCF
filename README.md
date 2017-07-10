@@ -149,6 +149,10 @@ Collect and share results for **correlation filter trackers**.
 "Robust Visual Tracking via Local-Global Correlation Filter." AAAI (2017).
 [[paper](http://hengfan.byethost7.com/publications/AAAI_17.pdf)]
 
+* **DCCO:** Joakim Johnander, Martin Danelljan, Fahad Shahbaz Khan, Michael Felsberg.
+"DCCO: Towards Deformable Continuous Convolution Operators." arXiv (2017).
+[[paper]](https://arxiv.org/pdf/1706.02888.pdf)
+
 ## Long-term
 
 * **LCT:** Chao Ma, Xiaokang Yang, Chongyang Zhang, Ming-Hsuan Yang.
