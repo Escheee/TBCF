@@ -264,15 +264,21 @@ Collect and share results for **correlation filter trackers**.
 
 ## Deep
 
-* **CF2:** Chao Ma, Jia-Bin Huang, Xiaokang Yang and Ming-Hsuan Yang.
+* **HCFT:** Chao Ma, Jia-Bin Huang, Xiaokang Yang and Ming-Hsuan Yang.
 "Hierarchical Convolutional Features for Visual Tracking." ICCV (2015)
 [[paper](http://faculty.ucmerced.edu/mhyang/papers/iccv15_tracking.pdf)]
 [[project](https://sites.google.com/site/jbhuang0604/publications/cf2)]
 [[github](https://github.com/jbhuang0604/CF2)]
 
-* **CF2+:** Chao Ma, Yi Xu, Bingbing Ni, Xiaokang Yang.
+* **HCFT+:** Chao Ma, Yi Xu, Bingbing Ni, Xiaokang Yang.
 "When Correlation Filters Meet Convolutional Neural Networks for Visual Tracking." SPL (2016).
 [[paper](https://drive.google.com/file/d/0B8-i_hZvGyZNclNFSWlESzUwZ0E/view?usp=sharing)]
+
+* **HCFTstar:** Chao Ma, Jia-Bin Huang, Xiaokang Yang, Ming-Hsuan Yang.
+"Robust Visual Tracking via Hierarchical Convolutional Features." arXiv (2017).
+[[paper](https://drive.google.com/open?id=0B8-i_hZvGyZNeWtWZWpULUJOeUk)]
+[[project]](https://sites.google.com/site/chaoma99/hcft-tracking)
+[[github]](https://github.com/chaoma99/HCFTstar)
 
 * **DeepSRDCF:** Martin Danelljan, Gustav Häger, Fahad Khan, Michael Felsberg.
 "Convolutional Features for Correlation Filter Based Visual Tracking." ICCV workshop (2015).
