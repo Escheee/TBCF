@@ -1,6 +1,19 @@
-# Benchmark Results of Correlation Filters
+# Tracking Benchmark for Correlation Filters
 
 Collect and share results for **correlation filter trackers**.
+
+* [Baseline](#baseline)
+* [Color](#color)
+* [Scale](#scale)
+* [Multi kernel & feature & template & task](#multi-kernel-feature-template-task)
+* [Part-based](#part-based)
+* [Long-term](#long-term)
+* [Response adaptation](#response-adaptation)
+* [Training set adaptation](#training-set-adaptation)
+* [Bound effect](#bound-effect)
+* [Continuous](#continuous)
+* [SVM](#svm)
+* [Deep](#deep)
 
 ## Results on OTB
 
@@ -86,6 +99,11 @@ Collect and share results for **correlation filter trackers**.
 [[github1](https://github.com/masa-nudt/KCFDP)]
 [[github2](https://github.com/masa-nudt/KCFDPT)]
 
+* **IBCCF:** Feng Li, Yingjie Yao, Peihua Li, David Zhang, Wangmeng Zuo, Ming-Hsuan Yang.
+"Integrating Boundary and Center Correlation Filters for Visual Tracking With Aspect Ratio Variation." ICCV workshop (2017).
+[[paper](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w28/Li_Integrating_Boundary_and_ICCV_2017_paper.pdf)]
+[[github](https://github.com/lifeng9472/IBCCF)]
+
 ## Multi kernel & feature & template & task
 
 * **MKCF:** Ming Tang, Jiayi Feng.
@@ -152,6 +170,10 @@ Collect and share results for **correlation filter trackers**.
 * **DCCO:** Joakim Johnander, Martin Danelljan, Fahad Shahbaz Khan, Michael Felsberg.
 "DCCO: Towards Deformable Continuous Convolution Operators." arXiv (2017).
 [[paper]](https://arxiv.org/pdf/1706.02888.pdf)
+
+* **SP-KCF:** Xin Sun; Ngai-Man Cheung; Hongxun Yao; Yiluan Guo.
+"Non-Rigid Object Tracking via Deformable Patches Using Shape-Preserved KCF and Level Sets." ICCV (2017).
+[[paper](http://openaccess.thecvf.com/content_ICCV_2017/papers/Sun_Non-Rigid_Object_Tracking_ICCV_2017_paper.pdf)]
 
 ## Long-term
 
@@ -242,9 +264,12 @@ Collect and share results for **correlation filter trackers**.
 [[paper](http://ieeexplore.ieee.org/document/7896655/)]
 [[github](http://github.com/shenjianbing/mrctrack)]
 
-* **BACF:** Hamed Kiani Galoogahi, Ashton Fagg, Simon Lucey.
-"Learning Background-Aware Correlation Filters for Visual Tracking." arXiv (2017).
-[[paper](https://arxiv.org/pdf/1703.04590.pdf)]
+* **BACF:** Hamed Kiani Galoogahi, Ashton Fagg, Simon Lucey. 
+"Learning Background-Aware Correlation Filters for Visual Tracking." ICCV (2017). 
+[[paper](http://openaccess.thecvf.com/content_ICCV_2017/papers/Galoogahi_Learning_Background-Aware_Correlation_ICCV_2017_paper.pdf)]
+[[supp](http://openaccess.thecvf.com/content_ICCV_2017/supplemental/Galoogahi_Learning_Background-Aware_Correlation_ICCV_2017_supplemental.pdf)]
+[[code](http://www.hamedkiani.com/uploads/5/1/8/8/51882963/bacf_toupload.zip)]
+[[project](http://www.hamedkiani.com/bacf.html)]
 
 ## Continuous
 
@@ -313,3 +338,14 @@ Collect and share results for **correlation filter trackers**.
 * **CFCF** Erhan Gundogdu, A. Aydin Alatan.
 "Good Features to Correlate for Visual Tracking." arXiv (2017).
 [[paper](https://arxiv.org/pdf/1704.06326)]
+
+* **CREST:** Yibing Song, Chao Ma, Lijun Gong, Jiawei Zhang, Rynson Lau, Ming-Hsuan Yang. 
+"CREST: Convolutional Residual Learning for Visual Tracking." ICCV (2017 **Spotlight**). 
+[[paper](http://openaccess.thecvf.com/content_ICCV_2017/papers/Song_CREST_Convolutional_Residual_ICCV_2017_paper.pdf)]
+[[project](http://www.cs.cityu.edu.hk/~yibisong/iccv17/index.html)]
+[[github](https://github.com/ybsong00/CREST-Release)]
+
+* **CFWCR:** Zhiqun He, Yingruo Fan, Junfei Zhuang, Yuan Dong, HongLiang Bai.
+"Correlation Filters With Weighted Convolution Responses." ICCV workshop (2017).
+[[paper](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w28/He_Correlation_Filters_With_ICCV_2017_paper.pdf)]
+[[github](https://github.com/he010103/CFWCR)]
